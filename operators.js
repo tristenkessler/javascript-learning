@@ -41,3 +41,13 @@ console.log(x === '1');
 console.log(x == true);
 console.log(x == '1');
 console.log('1' == true);
+
+
+// If a costomer has more than 100 points,
+// they are 'gold' costomer, otherwise,
+// they are a 'silver' costomer.
+
+let points = 110;
+let type = points > 100 ? 'gold' : 'silver';
+
+console.log(type);
