@@ -36,3 +36,8 @@ console.log(x <= 1);
 
 console.log(x === 1);
 console.log(x !== 1);
+
+console.log(x === '1');
+console.log(x == true);
+console.log(x == '1');
+console.log('1' == true);
