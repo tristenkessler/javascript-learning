@@ -30,3 +30,20 @@ function fizzBuzz(input) {
 
     return input;
 }
+// Demerit points
+
+console.log(checkSpeed(125));
+
+function checkSpeed(speed) {
+    const speedLimit = 70;
+    const kmPerPoint = 5
+    const pointsToSuspend = 12
+
+    points = Math.floor((speed - speedLimit)/ kmPerPoint);
+
+    if (points <= 0) return 'Ok';
+
+    if (points > pointsToSuspend) return 'License suspended';
+
+    else return ('Point: ' + points);
+}
