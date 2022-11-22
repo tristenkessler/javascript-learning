@@ -26,3 +26,13 @@ x += 5;
 
 x = x * 5;
 x /= 5;
+
+x = 1;
+
+console.log(x > 0);
+console.log(x >= 1);
+console.log(x < 1);
+console.log(x <= 1);
+
+console.log(x === 1);
+console.log(x !== 1);
