@@ -51,3 +51,27 @@ let points = 110;
 let type = points > 100 ? 'gold' : 'silver';
 
 console.log(type);
+
+
+// Logical AND (&&)
+console.log(true && true);
+console.log(true && false);
+
+// Logical OR (||)
+console.log(true || true);
+console.log(true || False);
+
+// NOT (!)
+console.log(!true);
+console.log(!false);
+
+// Falsy (false)
+// undefined, null, 0, false, '', NaN
+
+// Anything that is not falsy -> truthy
+
+let userColor = 'red';
+let defaultColor = 'blue';
+let currentColor = userColor || defaultColor;
+
+console.log(currentColor);
