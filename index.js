@@ -8,7 +8,7 @@ let selectedColor = null;
 console.log(name);
 
 const interestRate = 0.3;
-// interestRate = 1;
+// interestRate = 1;  "<< bad code"
 console.log(interestRate);
 
 let person = {
