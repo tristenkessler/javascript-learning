@@ -47,3 +47,15 @@ function checkSpeed(speed) {
 
     else return ('Point: ' + points);
 }
+
+// Even / odd numbers
+
+showNumbers(10);
+
+function showNumbers(limit) {
+    for(let i = 0; i <= limit; i++) {
+        if ((i % 2) === 1) console.log(i + ' "ODD"');
+
+        else console.log(i + ' "EVEN"');
+    }
+}
