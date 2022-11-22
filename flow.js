@@ -54,3 +54,16 @@ do {
     //console.log(i);
 //}
 
+const persons = {
+    name : 'Tristen',
+    age : 30
+};
+
+for (let key in persons){
+    console.log(key, persons[key]);
+}
+
+const colors = ['red', 'green', 'blue'];
+
+for (let index in colors)
+    console.log(colors[index]);
