@@ -95,3 +95,13 @@ console.log(message);
 x = 2 + 3 * 4;
 
 console.log(x);
+
+let a = 'red';
+let b = 'blue';
+
+x = a;
+a = b;
+b = x;
+
+console.log(a);
+console.log(b);
