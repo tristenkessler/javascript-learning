@@ -70,3 +70,15 @@ const colors = ['red', 'green', 'blue'];
 
 for (let color of colors)
     console.log(color);
+
+
+i = 0;
+while (i <= 10) {
+    if (i % 2 === 0) {
+        i++;
+        continue;
+    }
+
+    console.log(i);
+    i++;
+}
