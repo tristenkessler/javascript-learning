@@ -30,7 +30,7 @@ function fizzBuzz(input) {
 
     return input;
 }
-// Demerit points
+// #4 Demerit points
 
 console.log(checkSpeed(125));
 
@@ -48,7 +48,7 @@ function checkSpeed(speed) {
     else return ('Point: ' + points);
 }
 
-// Even / odd numbers
+// #5 Even / odd numbers
 
 showNumbers(10);
 
@@ -58,4 +58,18 @@ function showNumbers(limit) {
 
         else console.log(i + ' "EVEN"');
     }
+}
+
+// #6 Count Truthy
+
+const array = [0, null, undefined, null, null, 2, 3];
+
+console.log(countTruthy(array));
+
+function countTruthy(array) {
+    let count = 0;
+    for (let value of array)
+        if (value)
+            count++;
+    return count;
 }
