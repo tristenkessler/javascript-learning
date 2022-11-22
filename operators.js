@@ -92,3 +92,6 @@ let message = (myPermission & readPermission) ? 'yes' : 'no';
 
 console.log(message);
 
+x = 2 + 3 * 4;
+
+console.log(x);
