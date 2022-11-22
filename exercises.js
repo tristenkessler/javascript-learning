@@ -73,3 +73,20 @@ function countTruthy(array) {
             count++;
     return count;
 }
+
+// #7 String properties
+
+const movie = {
+    title: 'a',
+    releaseYear: 2018,
+    rating: 4.5,
+    director: 'b'
+};
+
+showProperties(movie);
+
+function showProperties(obj) {
+    for (let property in obj) {
+        if (typeof movie[property] === 'string') console.log(property, movie[property]);
+    }
+}
