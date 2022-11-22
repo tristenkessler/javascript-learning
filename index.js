@@ -27,3 +27,16 @@ let selectedColors = ['red', 'blue'];
 selectedColors[2] = 'green';
 selectedColors[3] = 4;
 console.log(selectedColors.length);
+
+function greet(name, lastName) {
+    console.log('Hello ' + name + ' ' + lastName);
+}
+
+greet('John', 'Smith');
+greet('Mary');
+
+function square(number) {
+    return number * number;
+}
+
+console.log(square(2));
