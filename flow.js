@@ -32,3 +32,8 @@ if (role === 'guest') console.log('Guest User');
 else if (role === 'moderator') console.log('Moderator');
 else console.log('Unknown User');
 
+
+for (let i = 5; i >= 1; i--) {
+    if(i % 2 !== 0) console.log(i);
+}
+
