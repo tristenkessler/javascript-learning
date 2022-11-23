@@ -13,7 +13,7 @@ function arrayFromRange(min,max){
 
 // #2 Includes
 
-const numbers3 = [1, 2, 3, 4];
+const numbers3 = [1, 1, 2, 3, 4];
 
 // console.log(numbers3.includes(1))
 console.log(includes(numbers3, 0))
@@ -25,3 +25,16 @@ function includes(array, searchElement) {
     return false;
 }
 
+// #3 Except
+
+const output = except(numbers3, [1, 2]);
+
+console.log(output);
+
+function except(array, excludes) {
+    const output = [];
+    for(let element of array)
+        if (!excludes.includes(element)) 
+            output.push(element);
+    return output;
+}
