@@ -33,3 +33,15 @@ const course = courses.findIndex(function(course) {
 
 console.log(course)
 
+// Remove elements 
+
+// End
+const last = numbers.pop();
+
+// Beginning
+const first = numbers.shift();
+
+// Middle
+numbers.splice(1,1);
+console.log(numbers)
+
