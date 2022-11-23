@@ -31,3 +31,20 @@ function Address(street, city, zipCode) {
 const myNewAddress = new Address('My Street', 'Des Moines', 50316);
 
 console.log(myNewAddress);
+
+// Object equality
+
+let myAddress2 = createAddress('My Street', 'Des Moines', 50316);
+
+function areEqual(address1, address2) {
+    for(key in address1) {
+        if (address1[key] !== address2[key])
+            return false;
+    }
+    return true;
+}
+function areSame(address1, address2) {
+    return address1 === address2;
+}
+console.log(areEqual(myAddress,myAddress2));
+console.log(areSame(myAddress,myAddress2));
