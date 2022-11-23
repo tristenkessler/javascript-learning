@@ -29,3 +29,21 @@ function interest(principal, rate = 3.5, years = 5) {
 }
 
 console.log(interest(10000))
+
+
+const person1 = {
+    firstName: 'Tristen',
+    lastName: 'Kessler',
+    get fullName() {
+        return `${person1.firstName} ${person1.lastName}`
+    },
+    set fullName(value) {
+        const parts = value.split(' ');
+        this.firstName = parts[0];
+        this.lastName = parts[1];
+    }
+};
+
+person1.fullName = 'John Smith';
+
+console.log(person1);
