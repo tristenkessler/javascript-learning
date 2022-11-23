@@ -48,3 +48,20 @@ function areSame(address1, address2) {
 }
 console.log(areEqual(myAddress,myAddress2));
 console.log(areSame(myAddress,myAddress2));
+
+
+
+// Blog post object
+
+let blogPost = {
+    title: 'My Blog Post',
+    body: 'Writing about emotions!?!',
+    author: 'me',
+    views: 100,
+    comments: [
+        {author: 'someoneAweful',body: 'You Suck!!!'},
+        {author: 'BKGiraffes',body: 'Great post hope to hear from you again!!'},
+    ],
+    isLive: false
+}
+console.log(blogPost);
