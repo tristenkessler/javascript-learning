@@ -26,6 +26,8 @@ const courses = [
 ];
 
 const course = courses.findIndex(function(course) {
+// const course = courses.findIndex(course => course.name === 'a');
+
     return course.name === 'a';
 });
 
