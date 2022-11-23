@@ -24,4 +24,16 @@ function Circle(radius) {
 }
 
 const circle = new Circle(1);
-const x = {};
+const w = {};
+
+const circle3 = {
+    radius: 1
+}
+
+circle3.color = 'yellow';
+circle3.draw = function() {}
+
+delete circle3.color;
+delete circle3.draw;
+
+console.log(circle3);
