@@ -49,7 +49,7 @@ const person1 = {
 };
 
 try {
-    person1.fullName = '';
+    person1.fullName = 't t';
 }
 catch (e) {
     alert(e);
