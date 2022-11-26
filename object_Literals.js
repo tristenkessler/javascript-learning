@@ -26,10 +26,33 @@ const circle0 = createCircle(1);
 // Constructor Function
 function Circle(radius) {
     this.radius = radius;
+
+    let defaultLocation = { x: 0, y: 0 };
+
+    let computeOptimumLocation = function(factor) {
+        // ...
+    }
+
     this.draw = function() {
+        computeOptimumLocation(0.1);
+        // defaultLocation
+        // this.radius
+        
         console.log('draw');
     }
 }
 const another1 = new Circle(1);
 Circle.call({}, 1);
 Circle.apply({}, [1, 2 , 3]);
+
+// Primatives copied by value
+// Objects copied by reference
+
+for (let key in circle) {
+    if (typeof circle[key] !== 'function')
+    console.log(key, circle[key]);
+}
+
+const keys = Object.keys(circle);
+console.log(keys);
+
