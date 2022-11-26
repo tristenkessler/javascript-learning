@@ -12,6 +12,7 @@ const circle = {
 
 circle.draw();
 
+// Factories
 function createCircle(radius) {
     return {
         radius,
@@ -20,3 +21,13 @@ function createCircle(radius) {
         }
     };
 }
+const circle0 = createCircle(1);
+
+// Constructor Function
+function Circle(radius) {
+    this.radius = radius;
+    this.draw = function() {
+        console.log('draw');
+    }
+}
+const another1 = new Circle(1);
