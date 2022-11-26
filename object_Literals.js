@@ -31,3 +31,5 @@ function Circle(radius) {
     }
 }
 const another1 = new Circle(1);
+Circle.call({}, 1);
+Circle.apply({}, [1, 2 , 3]);
